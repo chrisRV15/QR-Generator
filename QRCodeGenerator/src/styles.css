@@ -54,3 +54,21 @@ body{
     max-width: 400px;
     margin-top: 10px;
 }
+
+.App-Container a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    border: solid #071607;
+}
+
+.App-Container a:hover{
+    background-color: #071607;
+}
