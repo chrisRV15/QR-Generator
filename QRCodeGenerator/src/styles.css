@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    background-color: #3D737F;
+}
+body{
+    
+    color: white;
+}
+.App-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.App-Container h1{
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.App-Container input{
+    width: 250px;
+    border: #071607;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    background-color: white;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.App-Container button{
+    background: none; 
+    border: 2px solid #071607;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition-duration: 0.4s;
+}
+
+.App-Container button:hover{
+    background-color: #071607;
+}
+
+.App-Container img{
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
